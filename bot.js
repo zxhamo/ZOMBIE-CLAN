@@ -12,11 +12,11 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-if (message.content.startsWith('باك')){
+if (message.content.startsWith('برب')){
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("random")
-  .addField("" , "تﯡڷــﯖــم ۖ مــڼــﯜڔ ۛ ּڀــ̍ا ̨؏ــڛــڶ ۖ مــن ڙمــٱن ּ؏ــڼــک :green_heart:")
+  .addField(" ****" , " ٌــيَــتٌ يَ حٍــلُــۆ،  لُآ تٌــطًــۆلُ :disappointed:")
      
      
   message.channel.sendEmbed(embed);
