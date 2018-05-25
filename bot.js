@@ -5,11 +5,11 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('ready', () => {
-     client.user.setActivity("ولكمباك",{type: 'WATCHING'});
-
+client.on('message', msg => {
+  if (msg.content === 'باك') {
+    msg.reply('**ولكم**');
+  }
 });
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
